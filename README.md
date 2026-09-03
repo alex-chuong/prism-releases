@@ -6,13 +6,13 @@ Single source of truth for the latest GA versions of PRISM components.
 
 ```json
 {
-  "prism-arke-vscode": "0.3.9",
-  "prism-arke": "0.6.0",
-  "prism-iris-gateway": "0.8.2"
+  "prism-arke-vscode": "<version>",
+  "prism-arke": "<version>",
+  "prism-iris-gateway": "<version>"
 }
 ```
 
-Each key matches the GitHub repo name of the component. Values are numeric semver strings (`MAJOR.MINOR.PATCH`).
+Each key matches the GitHub repo name of the component. Values are numeric semver strings (`MAJOR.MINOR.PATCH`). The actual current values are in [`versions.json`](versions.json) — the example above uses placeholders to avoid becoming stale.
 
 ## Raw URL
 
@@ -28,10 +28,10 @@ Each component's CI workflow updates its own key on every release via the `prism
 
 | Component | CI ticket |
 |---|---|
-| prism-arke-vscode | PRISM-221 |
+| prism-arke-vscode | PRISM-221 (Done) |
 | prism-arke | PRISM-222 |
 | prism-iris-gateway | PRISM-223 |
 
-## GitHub App setup (one-time)
+## GitHub App
 
-The `prism-releases-bot` GitHub App must be installed on this repo for CI to work. See PRISM-221 for setup instructions.
+The `prism-releases-bot` GitHub App (App ID: 4813798) is installed on this repo and used by all component CI workflows to commit version updates. See PRISM-221 for setup details.
