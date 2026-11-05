@@ -1,5 +1,32 @@
 {
   "prism-arke-vscode": "0.4.1",
-  "prism-arke": "0.7.0",
-  "prism-iris-gateway": "0.8.2"
+  "prism-arke": "0.8.0",
+  "prism-iris-gateway": "0.8.2",
+  "artifacts": {
+    "prism-arke": {
+      "version": "0.8.0",
+      "files": [
+        {
+          "platform": "macos-arm64",
+          "name": "arke-v0.8.0-macos-arm64.tar.gz",
+          "sha256": "b8c8ee384ed97ec43e3d3bf81125668da3d8a31c8f6c979319d84b9ba7cb216e"
+        },
+        {
+          "platform": "macos-amd64",
+          "name": "arke-v0.8.0-macos-amd64.tar.gz",
+          "sha256": "a81594fed97bc0d188d9c20d5dfa7172d0df2064ca24fd067df2186503691007"
+        },
+        {
+          "platform": "linux-amd64",
+          "name": "arke-v0.8.0-linux-amd64.tar.gz",
+          "sha256": "d315e742f2210a9162c75960a83103c029a41e7346df9659f9c5b6c3f9c1e1c3"
+        },
+        {
+          "platform": "windows-amd64",
+          "name": "arke-v0.8.0-windows-amd64.zip",
+          "sha256": "ec17e6caab2ff16691dc49f5ae696e6ee40a42b9a7646ce8427f5ebce07c11bc"
+        }
+      ]
+    }
+  }
 }
